@@ -37,7 +37,15 @@ Régulation très fine du dimmer (0-10V) pour minimiser le soutirage réseau (ci
 
 ```js
 // Exemple des paramètres les plus importants
-targetMin: 0,      // Puissance minimale soutirée (W)
-targetMax: 30,     // Puissance maximale soutirée (W)
-brightnessFloor: 25, // Plancher de régulation le jour
-tempNightOn: 33,   // Température mini nuit
+targetMin: 0,             // Puissance minimale soutirée (W)
+targetMax: 30,            // Puissance maximale soutirée (W)
+tempNightOn: 33,          // Température mini nuit
+tempNightOff: 34,         // arrêt chauffage une fois la température atteinte la nuit
+tempOverheat: 52,         // seuil protection haute température
+tempResume: 49,           // température de reprise après surchauffe
+brightnessForced: 65,     // niveau forçage nuit en % du Dimmer
+nightStart: 18,           // heure du début de la phase Nuit
+nightEnd: 7,              // heure de fin de la phase Nuit
+dayStart: 7,              // heure du début de la phase Jour
+dayEnd: 18                // heure de fin de la phase Jour
+surplusStopHour: 22,      // heure après laquelle on arrête de chercher du surplus
