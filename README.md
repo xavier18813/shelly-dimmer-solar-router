@@ -23,9 +23,9 @@ Régulation très fine du dimmer (0-10V) pour minimiser le soutirage réseau (ci
 ## Matériel compatible
 
 - **Shelly Dimmer 0-10V Gen3**
-- Sonde DS18B20 + Add-on
+- ADD-ON + Sonde DS18B20 à placer au milieu du ballon, collée à la paroie interne
 - Shelly EM Gen3 (ou tout compteur accessible en HTTP)
-- Relais statique SSR 0-10V
+- Relais statique SSR 0-10V 10A
 
 ## Installation
 
