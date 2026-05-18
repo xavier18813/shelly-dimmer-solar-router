@@ -9,7 +9,7 @@ Sur la base d'un Shelly Dimmer + ADD-ON et un compteur Shelly EM monophasé et q
 ## Principe
 
 Réaliser un routeur solaire avec des moyens modestes (Shelly)
-mais qui demeure intéligent !
+mais qui demeure intelligent !
 
 Principe de fonctionnement :
 
