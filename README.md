@@ -25,7 +25,7 @@ Après 18 h, les charges domestiques (présence au domicile) sont plus fréquent
 - **Régulation progressive intelligente** par paliers adaptatifs
 - **Deux phases** : Jour (25-100%) / Nuit (0-100% avec détection surplus)
 - **Forçage nuit** si température trop basse (33°C → 65%)
-- **Baseline automatique** pour détecter le surplus solaire la nuit
+- **Baseline automatique** pour détecter le surplus solaire en phase Nuit
 - **Calibration auto** de la puissance nominale au démarrage
 - **Protection surchauffe** (52°C) avec hystérésis
 - **Compteur d’équivalent 100%** (suivi réel de production)
