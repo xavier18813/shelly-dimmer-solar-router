@@ -7,6 +7,7 @@ Sur la base d'un Shelly Dimmer + ADD-ON et un compteur Shelly EM monophasé et q
 
 ---
 ## Principe
+
 Réaliser un routeur solaire avec des moyens modestes (Shelly)
 Principe de fonctionnement :
 En journée, le système régule la production d’eau chaude en priorisant le surplus solaire. Le soleil se levant en moyenne vers 7 h, on active une phase « Jour » à cette heure.
@@ -15,6 +16,7 @@ Cependant, si la température est juste au-dessus de cette consigne et que l’o
 Adaptation à la saison :
 En été, il fait encore jour à 18 h. On prolonge donc la régulation solaire au-delà de 18 h, mais avec un arrêt définitif à 22 h (heure à laquelle on est certain qu’il n’y a plus de production photovoltaïque significative).
 Après 18 h, les charges domestiques (présence au domicile) sont plus fréquentes et peuvent perturber la régulation. On implémente donc une baseline de surplus : la régulation ne se déclenche que s’il y a au moins 50 W de surplus (valeur réglable). En cas d’échec, une temporisation de 2 minutes est appliquée avant de retenter la régulation.
+
 ---
 ## Fonctionnalités
 
