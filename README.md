@@ -29,8 +29,8 @@ Régulation très fine du dimmer (0-10V) pour minimiser le soutirage réseau (ci
 
 ## Installation
 
-1. Copier le contenu de `script.js` dans **Shelly → Scripting**
-2. Adapter les paramètres dans la section `CONFIG`
+1. Copier le contenu de `shelly-dimmer-solar-router.js` dans **Shelly → Scripting**
+2. Adapter les paramètres dans la section `CONFIG` du script, tout est expliqué
 3. Sauvegarder et redémarrer le script
 
 ## Configuration
