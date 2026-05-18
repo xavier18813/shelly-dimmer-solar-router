@@ -2,7 +2,8 @@
 
 **Routeur solaire avancé pour ballon ECS (200L) avec Shelly Dimmer Gen3**
 
-Régulation très fine du dimmer (0-10V) pour minimiser le soutirage réseau (cible 0-30W) tout en maximisant l’autoconsommation solaire.
+Régulation fine du dimmer (0-10V) pour minimiser le soutirage réseau (cible 0-30W) tout en maximisant l’autoconsommation solaire.
+Sur la base d'un Shelly Dimmer + ADD-ON et un compteur Shelly EM monophasé et quelques accessoires
 
 ---
 
