@@ -18,6 +18,7 @@ Cependant, si la température est juste au-dessus de cette consigne et que l’o
 Adaptation à la saison :
 En été, il fait encore jour à 18 h. On prolonge donc la régulation solaire au-delà de 18 h, mais avec un arrêt définitif à 22 h (heure à laquelle on est certain qu’il n’y a plus de production photovoltaïque significative).
 Après 18 h, les charges domestiques (présence au domicile) sont plus fréquentes et peuvent perturber la régulation. On implémente donc une baseline de surplus : la régulation ne se déclenche que s’il y a au moins 50 W de surplus (valeur réglable). En cas d’échec, une temporisation de 2 minutes est appliquée avant de retenter la régulation.
+Une consigne de température max (haute température), juste avant celle du thermostat mécanique, stoppe la régulation
 
 ---
 ## Fonctionnalités
@@ -51,6 +52,7 @@ Après 18 h, les charges domestiques (présence au domicile) sont plus fréquent
 
 ```js
 // Exemple des paramètres les plus importants
+emIP: "192.168.1.233",    // modifiez l'adresse pour inscrire celle de votre compteur (Shelly EM)
 targetMin: 0,             // Puissance minimale soutirée (W)
 targetMax: 30,            // Puissance maximale soutirée (W)
 tempNightOn: 33,          // Température mini nuit
