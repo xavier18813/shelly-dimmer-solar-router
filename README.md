@@ -46,7 +46,7 @@ Nota :    La conception s'est effectuée pour un ballon 200L avec résistance st
 ## Matériel compatible
 
 - **Shelly Dimmer 0-10V Gen3**
-- ADD-ON + Sonde DS18B20 à placer au milieu du ballon, collée à la paroie interne
+- ADD-ON + Sonde DS18B20 à placer au milieu du ballon, collée à la paroi interne
 - Shelly EM Gen3 (ou tout compteur accessible en HTTP)
 - Relais statique SSR 0-10V 10A
 
