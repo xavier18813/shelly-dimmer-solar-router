@@ -1,4 +1,4 @@
-// ============================================= V 6.7 =====================
+// ============================================= V finale ====================
 // MATERIELS :
 // Dimmer 0/1-10V Gen3 firmware 20250924-062659/1.7.1-gd336f31
 // Module complémentaire capteur ADD-ON + sonde DS18B20 connecté au Dimmer
@@ -634,7 +634,7 @@ function mainLoop() {
     startBaseline();
     print("🌙 Passage 18h -> baseline [" + timeStr() + "]");
     return;
-}
+  }
 
   // --- FORÇAGE NUIT ---
   if (handleNightForcing(temp)) {
@@ -679,7 +679,7 @@ function updateEquivalentHeater(temp) {
 // SECTION 17 : INITIALISATION
 // =======================================================================
 function init() {
-  print("=== Routeur Solaire Shelly - Régulation v6.7 ===");
+  print("=== Routeur Solaire Shelly - Régulation v finale===");
 
   for (let i = 0; i < 50; i++) {
     Timer.clear(i);
@@ -796,4 +796,4 @@ init();
 setupTimers();
 setupHTTP();
 
-print("=== Script régulation PLAGES v6.7 démarré [" + timeStr() + "] ===");
+print("=== Script régulation PLAGES démarré [" + timeStr() + "] ===");
