@@ -24,9 +24,11 @@ Une consigne de température max (haute température), juste avant celle du ther
 Nota :    La conception s'est effectuée pour un ballon 200L avec résistance stéatite d'env 2000W. Totalement adaptable pour d'autres ballons à thermostat mécanique et capacités différentes
           le Dimmer régule de 25% à 100%, car on a remarqué qu'à 25% la résistance du ballon consomme 4W env. Rien avant. Ce seuil est modifiable.
           Les consignes de température s'entendent mesures prises au milieu du ballon et ne reflètent pas la température exacte au sommet, qui est facilement supérieure de 25°C. 
-          Le compteur d'équivalence 100% est à titre indicatif et peut varier d'un facteur de 10% par rapport à la réalité. Il demeure cependant pratique à l'usage pour observer la quantité chauffée et anticiper un manque en fin de journée (nuages, mauvais temps)
-          Le premier démarrage commence toutjours par un 100% pendant 12s, nécéssaire pour le calibrage de la puissance réelle et l'intégration de l'équivalence 100% au calcul
+          Le compteur d'équivalence 100% est à titre indicatif et peut varier d'un facteur de 10% par rapport à la réalité. Il demeure cependant pratique à l'usage pour observer la quantité chauffée et anticiper un manque en fin de journée (nuages, mauvais temps).
+          Le premier démarrage commence toutjours par un 100% pendant 12s, nécéssaire pour le calibrage de la puissance réelle et l'intégration de l'équivalence 100% au calcul.
           Gardez toujours une plage de régulation, car un pas de 1% peut entrainer une variation de puissance de 40 à 50W en fonction du comportement de la résistance, la tension et la chaleur de l'eau. Le code a été élaboré par defaut pour une régulation entre 0W et 30W. Ces seuils sont bien sur modifiables.
+
+Les Shelly doivent etre à portée Wifi et dans le meme réseau local
 
 ---
 ## Fonctionnalités
