@@ -9,7 +9,7 @@ Sur la base d'un Shelly Dimmer + Shelly Plus AddOn (1 x DS) et un compteur Shell
 ## Principe
 
 Réaliser un routeur solaire avec des moyens modestes (full Shelly)
-mais qui demeure intelligent !
+mais qui demeure intelligent ! Sauf PID compliqué et oscillant.
 
 Principe de fonctionnement :
 
