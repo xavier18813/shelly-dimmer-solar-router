@@ -2,7 +2,7 @@
 // MATERIELS :
 // Dimmer 0/1-10V Gen3 firmware 20250924-062659/1.7.1-gd336f31
 // Module complémentaire capteur ADD-ON + sonde DS18B20 connecté au Dimmer
-// La sonde est collée sur la paroie inox interne du ballon, à mi-hauteur
+// La sonde est collée sur la paroi inox interne du ballon, à mi-hauteur
 // Shelly EM Gen3 firmware 20250429-124852/1.6.99-emg3prod2-g70204e5 pince voie 0
 // Relais statique SSR LCDS-25VD 0-10V 10A - 0-205V monophasé
 // Ballon ECS 200L résistance stéatite d'env 2000W
