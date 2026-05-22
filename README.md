@@ -21,8 +21,8 @@ En été, il fait encore jour à 18 h. On prolonge donc la régulation solaire a
 Après 18 h, les charges domestiques (présence au domicile) sont plus fréquentes et peuvent perturber la régulation. On implémente donc une baseline de surplus : la régulation ne se déclenche que s’il y a au moins 50 W de surplus (valeur réglable). En cas d’échec, une temporisation de 2 minutes est appliquée avant de retenter la régulation.
 Une consigne de température max (haute température), juste avant celle du thermostat mécanique, stoppe la régulation afin de ne pas perturber les statistiques du tableau de bord du Shelly Cloud
 
-Nota :    La conception s'est effectuée pour un ballon 200L avec résistance stéatite d'env 2000W. Totalement adaptable pour d'autres ballons à thermostat mécanique et capacités différentes
-          le Dimmer régule de 25% à 100%, car on a remarqué qu'à 25% la résistance du ballon consomme 4W env. Rien avant. Ce seuil est modifiable.
+Nota :    La conception s'est effectuée pour un ballon 200L avec résistance stéatite d'env 2000W. Totalement adaptable pour d'autres ballons à thermostat mécanique et capacités différentes. 
+          Le Dimmer régule de 25% à 100%, car on a remarqué qu'à 25% la résistance du ballon consomme 4W env. Rien avant. Ce seuil est modifiable.
           Les consignes de température s'entendent mesures prises au milieu du ballon et ne reflètent pas la température exacte au sommet, qui est facilement supérieure de 25°C. 
           Le compteur d'équivalence 100% est à titre indicatif et peut varier d'un facteur de 10% par rapport à la réalité. Il demeure cependant pratique à l'usage pour observer la quantité chauffée et anticiper un manque en fin de journée (nuages, mauvais temps).
           Le premier démarrage commence toutjours par un 100% pendant 12s, nécéssaire pour le calibrage de la puissance réelle et l'intégration de l'équivalence 100% au calcul.
