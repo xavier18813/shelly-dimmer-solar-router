@@ -48,7 +48,7 @@ Les Shelly doivent etre à portée Wifi et dans le meme réseau local
 ## Matériel compatible
 
 - **Shelly Dimmer 0-10V Gen3**
-- ADD-ON + Sonde DS18B20 à placer au milieu du ballon, collée à la paroi interne
+- Shelly Plus ADD-ON + Sonde DS18B20 à placer au milieu du ballon, collée à la paroi interne
 - Shelly EM Gen3 (ou tout compteur accessible en HTTP)
 - Relais statique SSR 0-10V 10A
 
