@@ -1,4 +1,4 @@
-# Shelly Dimmer Solar Router - Régulation Progressive par PLAGES
+# Shelly Dimmer Solar Router - Régulation Progressive par PLAGES/PALIERS
 
 **Routeur solaire avancé pour ballon ECS (200L) avec Shelly Dimmer Gen3**
 
