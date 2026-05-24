@@ -54,7 +54,7 @@ Les Shelly doivent etre à portée Wifi et dans le meme réseau local
 
 ## Installation
 
-1. Copier le contenu de `shelly-dimmer-solar-router.js` dans **Shelly → Scripting**
+1. Copier le contenu de `Régul_PLAGES_finale.js` dans **Shelly → Scripting**
 2. Adapter les paramètres dans la section `CONFIG` du script, tout est expliqué dans le code
 3. Sauvegarder et redémarrer le script
 
