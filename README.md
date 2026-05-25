@@ -33,7 +33,7 @@ Les Shelly doivent etre à portée Wifi et dans le meme réseau local
 ---
 ## Fonctionnalités
 
-- **Régulation progressive intelligente** par paliers adaptatifs
+- **Régulation progressive intelligente** par paliers adaptatifs (6 pentes différentes)
 - **Deux phases** : Jour (25-100%) / Nuit (0-100% avec détection surplus)
 - **Forçage nuit** si température trop basse (33°C → 65%)
 - **Baseline automatique** pour détecter le surplus solaire en phase Nuit
