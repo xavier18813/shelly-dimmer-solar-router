@@ -28,7 +28,7 @@ Nota :    La conception s'est effectuée pour un ballon 200L avec résistance st
           Le premier démarrage commence toutjours par un 100% pendant 12s, nécéssaire pour le calibrage de la puissance réelle et l'intégration de l'équivalence 100% au calcul.
           Gardez toujours une plage de régulation, car un pas de 1% peut entrainer une variation de puissance de 40 à 50W en fonction du comportement de la résistance, la tension et la chaleur de l'eau. Le code a été élaboré par defaut pour une régulation entre 0W et 30W. Ces seuils sont bien sur modifiables.
 
-Les Shelly doivent etre à portée Wifi et dans le meme réseau local
+Les Shelly doivent etre à porté Wifi et dans le meme réseau local
 
 ---
 ## Fonctionnalités
